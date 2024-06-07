@@ -572,7 +572,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.025em;
 }
 
-.page-title h1 {
+.hero--title h1 {
   font-size: 3rem;
   line-height: 1.25;
   font-weight: 900;
@@ -592,8 +592,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product--details .product-img-wrap {
-  height: 100%;
-  min-height: 20rem;
+  height: 18rem;
 }
 
 .product--details img {
@@ -620,8 +619,42 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
 }
 
+.hero--top > div > h1 {
+  font-size: 4.5rem;
+  line-height: 1.25;
+  font-weight: 900;
+  color: var(--root-primary-color);
+}
+
+.hero--top div:last-of-type {
+  height: 40rem;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .hero--top div:last-of-type {
+    width: 54rem;
+  }
+}
+
+.hero--top div:last-of-type img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero--top form button {
+  background-color: var(--root-primary-color);
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-8 {
@@ -641,12 +674,24 @@ h1, h2, h3, h4, h5, h6 {
   min-height: max-content;
 }
 
+.w-140 {
+  width: 40rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
 .w-64 {
   width: 16rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.min-w-96 {
+  min-width: 24rem;
 }
 
 .min-w-max {
@@ -678,10 +723,6 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
 .gap-16 {
   gap: 4rem;
 }
@@ -702,6 +743,16 @@ h1, h2, h3, h4, h5, h6 {
   row-gap: 1rem;
 }
 
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -718,6 +769,21 @@ h1, h2, h3, h4, h5, h6 {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-5 {
@@ -762,16 +828,22 @@ h1, h2, h3, h4, h5, h6 {
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-}
 
-@media (min-width: 768px) {
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .sm\:flex-col {
+    flex-direction: column;
   }
 }
 
 @media (min-width: 1024px) {
+  .lg\:basis-1\/4 {
+    flex-basis: 25%;
+  }
+
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 }

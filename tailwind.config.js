@@ -11,15 +11,21 @@ module.exports = {
           'dark-blue': 'var(--root-primary-color)',
         },
       },
+      height: {
+        '140': '40rem',
+      },
       textColor: {
         skin: {
           'dark-blue': 'var(--root-primary-color)',
         },
       },
+      width: {
+        '140': '40rem',
+        '154': '54rem',
+      }
     },
     screens: {
       'sm': '640px',
-      'md': '768px',
       'lg': '1024px',
     },
   },

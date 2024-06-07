@@ -1,14 +1,8 @@
-import { Link } from "react-router-dom";
-
-
-
-
-const ButtonComponent = ({ btnURI, btnProps, btnText }) => {
+const ButtonComponent = ({ btnType, btnProps, btnText }) => {
   return (
-    <Link to={btnURI} className={btnProps}>
+    <button type={btnType} className={btnProps}>
         {btnText}
-    </Link>
-  )
-}
-
-export default ButtonComponent
+    </button>
+  );
+};
+export default ButtonComponent;

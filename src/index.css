@@ -24,6 +24,7 @@
 }
 
 
+
 @layer components {
     .nav-menu .brand {
       @apply w-56 
@@ -36,7 +37,7 @@
         tracking-wide
     }
 
-    .page-title h1 {
+    .hero--title h1 {
       @apply
         text-5xl/tight font-black text-skin-dark-blue
       ;
@@ -57,7 +58,7 @@
 
     .product--details .product-img-wrap {
       @apply
-        min-h-80 h-full
+        h-72
       ;
     }
 
@@ -90,6 +91,36 @@
         text-xl
         italic
         font-semibold
+      ;
+    }
+
+    .hero--top > div > h1 {
+      @apply
+        text-7xl/tight
+        font-black
+        text-skin-dark-blue
+      ;
+    }
+
+    .hero--top div:last-of-type {
+      @apply
+        w-full 
+        lg:w-154 h-140
+      ;
+    }
+
+    .hero--top div:last-of-type img {
+      @apply 
+        w-full
+        h-full 
+        object-cover
+      ;
+    }
+
+    .hero--top form button {
+      @apply 
+        text-white
+          bg-skin-dark-blue
       ;
     }
 }

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { logo } from "../assets/icons";
 import { navMenus } from "../constants";
-import { ButtonComponent, NavMenuCard } from "../components";
+import { ButtonLinkComponent, NavMenuCard } from "../components";
 
 
 
@@ -27,7 +27,7 @@ const Nav = () => {
 
 
             <div className="w-64 min-w-max">
-                <ButtonComponent 
+                <ButtonLinkComponent 
                     btnURI="https://travelbeta.com/auth/signup"
                     btnText="sign up"
                     btnProps="flex justify-center text-2xl capitalize bg-skin-dark-blue text-white font-semibold px-6 py-5 rounded-xl"
