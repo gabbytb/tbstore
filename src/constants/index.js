@@ -26,37 +26,38 @@ export const navMenus = [
     },
 ]
 
-export const storeItems = [
+
+
+export const storeItemsOne = [
     {
-        linkURI: "/products",
+        linkURI: "#",
         productImg: shoe1,
         productDescription: "Nike Shoe 1",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
         warrantyInfo: "1 year"
     },
     {
-        linkURI: "/products",
+        linkURI: "#",
         productImg: shoe2,
         productDescription: "Nike Shoe 2",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
         warrantyInfo: "2 years"
     },
     {
-        linkURI: "/products",
+        linkURI: "#",
         productImg: shoe3,
         productDescription: "Nike Shoe 3",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
         warrantyInfo: "6 months"
     },
     {
-        linkURI: "/products",
+        linkURI: "#",
         productImg: shoe4,
         productDescription: "Nike Shoe 4",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
         warrantyInfo: "1 year"
     },
 ]
-
 export const storeItemsTwo = [
     {
         linkURI: "#",
@@ -88,27 +89,26 @@ export const storeItemsTwo = [
     },
 ]
 
+
+
 export const footerLinksOne = [
     { linkURI: '/flights', label: "Flights" },
     { linkURI: '/?tab=hotels', label: "Hotels" },
     { linkURI: '/visa', label: "Visa" },
     { linkURI: '/packages', label: "Packages" },
 ]
-
 export const footerLinksTwo = [
     { linkURI: '/flights', label: "Flights" },
     { linkURI: '/?tab=hotels', label: "Hotels" },
     { linkURI: '/visa', label: "Visa" },
     { linkURI: '/packages', label: "Packages" },
 ]
-
 export const footerLinksThree = [
     { linkURI: '/flights', label: "Flights" },
     { linkURI: '/?tab=hotels', label: "Hotels" },
     { linkURI: '/visa', label: "Visa" },
     { linkURI: '/packages', label: "Packages" },
 ]
-
 export const footerLinksFour = [
     { linkURI: '/flights', label: "Flights" },
     { linkURI: '/?tab=hotels', label: "Hotels" },

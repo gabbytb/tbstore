@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Nav } from "../components";
 import { 
-    storeItems, 
+    storeItemsOne, 
 } from "../constants";
 import { ShoeItemsCard, } from "../components";
 import { shoe1 } from "../assets/images";
@@ -40,7 +40,7 @@ const ProductDescription = () => {
                     <div className='grid grid-rows-3 gap-16 rid-flow-col min-h-max'>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-16">
                             {
-                                storeItems.map((item) => {
+                                storeItemsOne.map((item) => {
                                     return (
                                         <div key={item.productDescription}>
                                             <ShoeItemsCard 

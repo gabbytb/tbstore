@@ -102,14 +102,15 @@
       ;
     }
 
-    .hero--top div:last-of-type {
+    /* .hero--top div:last-of-type {
       @apply
         w-full 
         lg:w-154 
         h-140
-        inline-flex
+        hidden
+        lg:inline-flex
       ;
-    }
+    } */
 
     .hero--top div:last-of-type img {
       @apply 
@@ -131,11 +132,17 @@
         bg-hero 
         bg-no-repeat 
         bg-s-axis
-        bg-100%
+        /* bg-100% */
+        bg-contain
         px-12 
         pt-56
-        flex 
-        flex-col
       ;
     }
+
+    /* .section-1-hero .section-1-hero--container {
+      @apply
+
+      ;
+    } */
+
 }
