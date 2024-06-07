@@ -15,12 +15,13 @@ module.exports = {
         'hero': "url('/src/assets/images/storefront.jpg')",
       },
       backgroundPosition: {
-        's-axis': '0rem -5rem',
+        'd-axis': '0 5rem',
       },
       backgroundSize: {
         '100%': '100%',
       },
       height: {
+        // '124': '24rem',
         '140': '40rem',
       },
       textColor: {
@@ -34,7 +35,7 @@ module.exports = {
       }
     },
     screens: {
-      'sm': '640px',
+      'sm': '764px',
       'lg': '1024px',
     },
   },

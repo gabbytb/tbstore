@@ -592,7 +592,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product--details .product-img-wrap {
-  height: 18rem;
+  height: 24rem;
 }
 
 .product--details img {
@@ -601,7 +601,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-info-wrap {
-  padding: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 4rem;
 }
 
 .product-info-wrap h4 {
@@ -623,7 +626,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 4.5rem;
   line-height: 1.25;
   font-weight: 900;
-  color: var(--root-primary-color);
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 /* .hero--top div:last-of-type {
@@ -650,19 +654,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-1-hero {
   background-image: url('/src/assets/images/storefront.jpg');
-  background-size: contain;
-  background-position: 0rem -5rem;
+  background-size: 100%;
+  background-position: 0 5rem;
   background-repeat: no-repeat;
   padding-left: 3rem;
   padding-right: 3rem;
   padding-top: 14rem;
 }
 
-/* .section-1-hero .section-1-hero--container {
-      @apply
+.section-1-hero .section-1-hero--container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+}
 
-      ;
-    } */
+.section-2-product-slide {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 
 .fixed {
   position: fixed;
@@ -678,14 +688,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .z-50 {
   z-index: 50;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .flex {
@@ -721,8 +723,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 12rem;
 }
 
-.w-64 {
-  width: 16rem;
+.w-96 {
+  width: 24rem;
 }
 
 .w-full {
@@ -731,11 +733,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .min-w-96 {
   min-width: 24rem;
-}
-
-.min-w-max {
-  min-width: -webkit-max-content;
-  min-width: max-content;
 }
 
 .grid-cols-1 {
@@ -848,6 +845,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 1.5rem;
 }
 
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -876,7 +881,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 640px) {
+@media (min-width: 764px) {
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -891,8 +896,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 54rem;
   }
 
-  .lg\:basis-1\/4 {
-    flex-basis: 25%;
+  .lg\:basis-2\/4 {
+    flex-basis: 50%;
   }
 
   .lg\:grid-cols-4 {

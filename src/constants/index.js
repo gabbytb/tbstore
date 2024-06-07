@@ -5,8 +5,6 @@ import {
 
 
 
-
-
 export const navMenus = [
     {
         linkURI: "https://travelbeta.com/",

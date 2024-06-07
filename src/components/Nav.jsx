@@ -26,11 +26,11 @@ const Nav = () => {
                 </ul>
 
 
-                <div className="w-64 min-w-max">
+                <div className="w-96 text-center flex">
                     <ButtonLinkComponent 
                         btnURI="https://travelbeta.com/auth/signup"
                         btnText="sign up"
-                        btnProps="flex justify-center text-2xl capitalize bg-skin-dark-blue text-white font-semibold px-6 py-5 rounded-xl"
+                        btnProps="w-full text-2xl capitalize bg-skin-dark-blue text-white font-semibold px-6 py-5 rounded-xl"
                     />
                 </div>
             </nav>

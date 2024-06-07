@@ -1,4 +1,4 @@
-import { Hero } from "../sections";
+import { Hero, ProductShowcase } from "../sections";
 
 
 
@@ -7,6 +7,7 @@ const HomeBody = () => {
   return (
     <>
       <Hero />
+      <ProductShowcase />
     </>
   )
 }

@@ -1,10 +1,6 @@
 import { Link } from "react-router-dom";
 
 
-
-
-
-
 const ShoeItemsCard = ({ activeImage, exactItem, changeActiveImage }) => {
   
   

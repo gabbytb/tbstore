@@ -58,7 +58,7 @@
 
     .product--details .product-img-wrap {
       @apply
-        h-72
+        h-96
       ;
     }
 
@@ -70,7 +70,9 @@
 
     .product-info-wrap {
       @apply 
-        p-6
+        pt-6
+        pb-16
+        px-8
       ;
     }
 
@@ -98,7 +100,8 @@
       @apply
         text-7xl/tight
         font-black
-        text-skin-dark-blue
+        /* text-skin-dark-blue */
+        text-white
       ;
     }
 
@@ -131,18 +134,25 @@
       @apply
         bg-hero 
         bg-no-repeat 
-        bg-s-axis
-        /* bg-100% */
-        bg-contain
+        bg-d-axis
+        bg-100%
         px-12 
         pt-56
       ;
     }
 
-    /* .section-1-hero .section-1-hero--container {
+    .section-1-hero .section-1-hero--container {
       @apply
-
+        flex
+        flex-col
+        pt-12 
+        pb-40
       ;
-    } */
+    }
 
+    .section-2-product-slide {
+      @apply
+        px-12
+      ;
+    }
 }
