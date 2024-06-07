@@ -130,7 +130,8 @@
       @apply
         bg-hero 
         bg-no-repeat 
-        bg-contain
+        bg-s-axis
+        bg-100%
         px-12 
         pt-56
         flex 

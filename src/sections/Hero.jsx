@@ -35,7 +35,7 @@ const Hero = () => {
 
     return (
         <section className='section-1-hero w-full h-full'>
-            <div className="flex flex-col sm:flex-col lg:flex-row justify-between items-center hero--top">
+            <div className="flex flex-col sm:flex-col lg:flex-row justify-between items-start lg:items-center hero--top">
                 <div className="w-140 lg:basis-1/4 space-y-12">
                     <h1>Travelbeta <br />Online Store</h1>
 
@@ -49,8 +49,8 @@ const Hero = () => {
                     </form>
                 </div>
 
-                <div>
-                    <img src={activeImage} alt="bg_img" />
+                <div className="hidden sm:hidden lg:block">
+                    <img className="hidden sm:hidden lg:block" src={activeImage} alt="bg_img" />
                 </div>
             </div>
 
