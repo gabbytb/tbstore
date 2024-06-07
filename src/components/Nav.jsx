@@ -30,7 +30,7 @@ const Nav = () => {
                 <ButtonComponent 
                     btnURI="https://travelbeta.com/auth/signup"
                     btnText="sign up"
-                    btnProps="flex justify-center text-2xl capitalize bg-blue-600 text-white font-semibold px-6 py-5 rounded-xl"
+                    btnProps="flex justify-center text-2xl capitalize bg-skin-dark-blue text-white font-semibold px-6 py-5 rounded-xl"
                 />
             </div>
         </nav>

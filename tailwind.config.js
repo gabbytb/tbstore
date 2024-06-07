@@ -5,9 +5,21 @@ module.exports = {
     "./src/**/*.{html,jsx,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        skin: {
+          'dark-blue': 'var(--root-primary-color)',
+        },
+      },
+      textColor: {
+        skin: {
+          'dark-blue': 'var(--root-primary-color)',
+        },
+      },
+    },
     screens: {
       'sm': '640px',
+      'md': '768px',
       'lg': '1024px',
     },
   },

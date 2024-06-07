@@ -9,7 +9,8 @@
   :root {
     --root-font-size: 10px;
     --root-font-family: sans-serif;
-    --root-color: #000000c9;
+    --root-color: rgba(0, 0, 0, 0.788);
+    --root-primary-color: rgb(2, 1, 128);
   }
 
   html {
@@ -37,7 +38,7 @@
 
     .page-title h1 {
       @apply
-        text-6xl/tight font-black
+        text-5xl/tight font-black text-skin-dark-blue
       ;
     }
 
@@ -48,14 +49,47 @@
       ;
     }
 
+    .product--details p {
+      @apply
+        text-xl/relaxed font-semibold
+      ; 
+    }
+
     .product--details .product-img-wrap {
       @apply
         min-h-80 h-full
       ;
     }
+
     .product--details img {
       @apply
         w-full h-full
+      ;
+    }
+
+    .product-info-wrap {
+      @apply 
+        p-6
+      ;
+    }
+
+    .product-info-wrap h4 {
+      @apply
+        mb-0
+      ;
+    }
+
+    .product-info-wrap p {
+      @apply
+        mb-3
+      ;
+    }
+
+    .product-info-wrap small {
+      @apply
+        text-xl
+        italic
+        font-semibold
       ;
     }
 }
