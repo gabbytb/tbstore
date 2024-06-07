@@ -8,8 +8,8 @@ import { ButtonLinkComponent, NavMenuCard } from "../components";
 
 const Nav = () => {
   return (
-    <header>
-        <nav className="flex justify-between items-center nav-menu px-12 py-6 shadow-lg">
+    <header className="flex z-50 bg-white fixed top-0 w-full">
+        <nav className="flex justify-between items-center nav-menu w-full px-12 py-6 bg-white shadow-lg z-50">
             <Link to="/" className="brand">
                 <img src={logo} alt="brand logo" />
             </Link>

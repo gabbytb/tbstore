@@ -11,6 +11,17 @@ module.exports = {
           'dark-blue': 'var(--root-primary-color)',
         },
       },
+      backgroundImage: {
+        'hero': "url('/src/assets/images/storefront.jpg')",
+      },
+      backgroundSize: {
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
+        '70%': '70%',
+        '100%': '100%',
+        '120': '100rem',
+      },
       height: {
         '140': '40rem',
       },

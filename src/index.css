@@ -105,7 +105,9 @@
     .hero--top div:last-of-type {
       @apply
         w-full 
-        lg:w-154 h-140
+        lg:w-154 
+        h-140
+        inline-flex
       ;
     }
 
@@ -121,6 +123,18 @@
       @apply 
         text-white
           bg-skin-dark-blue
+      ;
+    }
+
+    .section-1-hero {
+      @apply
+        bg-hero 
+        bg-no-repeat 
+        bg-contain
+        px-12 
+        pt-56
+        flex 
+        flex-col
       ;
     }
 }

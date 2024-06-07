@@ -6,7 +6,11 @@ const Home = () => {
   return (
     <>
         <Nav /> 
-        <HomeBody />
+        <main className="absolute top-0">
+          {/* <div> */}
+            <HomeBody />
+          {/* </div> */}
+        </main>
     </>
   )
 }

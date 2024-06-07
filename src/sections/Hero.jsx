@@ -34,9 +34,9 @@ const Hero = () => {
 
 
     return (
-        <section className='section-1-hero px-12'>
-            <div className="flex flex-col sm:flex-col lg:flex-row justify-between mt-8 hero--top">
-                <div className="w-140 lg:basis-1/4 space-y-12 mt-20">
+        <section className='section-1-hero w-full h-full'>
+            <div className="flex flex-col sm:flex-col lg:flex-row justify-between items-center hero--top">
+                <div className="w-140 lg:basis-1/4 space-y-12">
                     <h1>Travelbeta <br />Online Store</h1>
 
                     <form className="flex justify-between shadow-lg px-6 py-3">
