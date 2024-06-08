@@ -21,7 +21,6 @@ module.exports = {
         '100%': '100%',
       },
       height: {
-        // '124': '24rem',
         '140': '40rem',
       },
       textColor: {

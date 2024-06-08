@@ -5,6 +5,8 @@ import {
 
 
 
+
+
 export const navMenus = [
     {
         linkURI: "https://travelbeta.com/",
@@ -26,62 +28,62 @@ export const navMenus = [
 
 
 
-export const storeItemsOne = [
+export const storeItemShoes = [
     {
-        linkURI: "#",
+        linkURI: "nike-af-1",
         productImg: shoe1,
         productDescription: "Nike Shoe 1",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
         warrantyInfo: "1 year"
     },
     {
-        linkURI: "#",
+        linkURI: "nike-af-2",
         productImg: shoe2,
         productDescription: "Nike Shoe 2",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
         warrantyInfo: "2 years"
     },
     {
-        linkURI: "#",
+        linkURI: "nike-af-3",
         productImg: shoe3,
         productDescription: "Nike Shoe 3",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
         warrantyInfo: "6 months"
     },
     {
-        linkURI: "#",
+        linkURI: "nike-af-4",
         productImg: shoe4,
         productDescription: "Nike Shoe 4",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
         warrantyInfo: "1 year"
     },
 ]
-export const storeItemsTwo = [
+export const storeItemHats = [
     {
-        linkURI: "#",
+        linkURI: "tropical-round-hat",
         productImg: hat1,
-        productDescription: "Beach Hat 1",
+        productDescription: "Beach Hat",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
         warrantyInfo: "2 years"
     },
     {
-        linkURI: "#",
+        linkURI: "traditional-hat",
         productImg: hat2,
-        productDescription: "Beach Hat 2",
+        productDescription: "Traditional Hat",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
         warrantyInfo: "1 year"
     },
     {
-        linkURI: "#",
+        linkURI: "tourist-hat",
         productImg: hat3,
-        productDescription: "Beach Hat 3",
+        productDescription: "Tourist Hat",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
         warrantyInfo: "10 months"
     },
     {
-        linkURI: "#",
+        linkURI: "desert-camo-cap",
         productImg: hat4,
-        productDescription: "Beach Hat 4",
+        productDescription: "Sport Camo Cap",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
         warrantyInfo: "1 year"
     },
@@ -113,3 +115,7 @@ export const footerLinksFour = [
     { linkURI: '/visa', label: "Visa" },
     { linkURI: '/packages', label: "Packages" },
 ]
+
+
+
+

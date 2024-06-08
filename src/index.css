@@ -136,23 +136,24 @@
         bg-no-repeat 
         bg-d-axis
         bg-100%
-        px-12 
         pt-56
       ;
     }
 
-    .section-1-hero .section-1-hero--container {
+    .section-1-hero .home-container {
       @apply
         flex
         flex-col
         pt-12 
         pb-40
-      ;
-    }
-
-    .section-2-product-slide {
-      @apply
         px-12
       ;
     }
+
+    .section-2-product-slide .home-container {
+      @apply
+        px-12
+      ; 
+    }
+    
 }

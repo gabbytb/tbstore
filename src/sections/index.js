@@ -1,10 +1,9 @@
-import Hero from "./Hero";
-import ProductShowcase from "./ProductShowcase";
-import ProductDescription from "./ProductDescription";
+import Hero from "./Home/Hero";
+import ProductLists from "./Home/ProductLists";
+
 
 
 export {
     Hero,
-    ProductShowcase,
-    ProductDescription,
+    ProductLists,
 }

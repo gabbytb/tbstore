@@ -1,4 +1,4 @@
-import { Hero, ProductShowcase } from "../sections";
+import { Hero, ProductLists } from "../sections";
 
 
 
@@ -7,7 +7,7 @@ const HomeBody = () => {
   return (
     <>
       <Hero />
-      <ProductShowcase />
+      <ProductLists />
     </>
   )
 }

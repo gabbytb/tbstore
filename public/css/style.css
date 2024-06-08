@@ -657,19 +657,19 @@ h1, h2, h3, h4, h5, h6 {
   background-size: 100%;
   background-position: 0 5rem;
   background-repeat: no-repeat;
-  padding-left: 3rem;
-  padding-right: 3rem;
   padding-top: 14rem;
 }
 
-.section-1-hero .section-1-hero--container {
+.section-1-hero .home-container {
   display: flex;
   flex-direction: column;
+  padding-left: 3rem;
+  padding-right: 3rem;
   padding-top: 3rem;
   padding-bottom: 10rem;
 }
 
-.section-2-product-slide {
+.section-2-product-slide .home-container {
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -696,14 +696,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .grid {
   display: grid;
-}
-
-.hidden {
-  display: none;
-}
-
-.h-140 {
-  height: 40rem;
 }
 
 .h-full {
@@ -888,14 +880,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 1024px) {
-  .lg\:inline-flex {
-    display: inline-flex;
-  }
-
-  .lg\:w-154 {
-    width: 54rem;
-  }
-
   .lg\:basis-2\/4 {
     flex-basis: 50%;
   }
