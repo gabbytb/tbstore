@@ -34,6 +34,7 @@ export const storeItemShoes = [
         productImg: shoe1,
         productDescription: "Nike Shoe 1",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
+        productPrice: "19.99",
         warrantyInfo: "1 year"
     },
     {
@@ -41,6 +42,7 @@ export const storeItemShoes = [
         productImg: shoe2,
         productDescription: "Nike Shoe 2",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
+        productPrice: "14.77",
         warrantyInfo: "2 years"
     },
     {
@@ -48,6 +50,7 @@ export const storeItemShoes = [
         productImg: shoe3,
         productDescription: "Nike Shoe 3",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
+        productPrice: "30.25",
         warrantyInfo: "6 months"
     },
     {
@@ -55,6 +58,7 @@ export const storeItemShoes = [
         productImg: shoe4,
         productDescription: "Nike Shoe 4",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
+        productPrice: "23.99",
         warrantyInfo: "1 year"
     },
 ]
@@ -64,6 +68,7 @@ export const storeItemHats = [
         productImg: hat1,
         productDescription: "Beach Hat",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
+        productPrice: "8.33",
         warrantyInfo: "2 years"
     },
     {
@@ -71,6 +76,7 @@ export const storeItemHats = [
         productImg: hat2,
         productDescription: "Traditional Hat",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
+        productPrice: "5.98",
         warrantyInfo: "1 year"
     },
     {
@@ -78,6 +84,7 @@ export const storeItemHats = [
         productImg: hat3,
         productDescription: "Tourist Hat",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
+        productPrice: "2.15",
         warrantyInfo: "10 months"
     },
     {
@@ -85,6 +92,7 @@ export const storeItemHats = [
         productImg: hat4,
         productDescription: "Sport Camo Cap",
         productDetails: "Lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.....",
+        productPrice: "17.99",
         warrantyInfo: "1 year"
     },
 ]
