@@ -6,9 +6,12 @@ import { ButtonLinkComponent, NavMenuCard } from "../components";
 
 
 
-const Nav = () => {
+
+const Nav = ({ navProps }) => {
+
+    
     return (
-        <header className="flex z-50 bg-white fixed top-0 w-full">
+        <header className={`flex z-50 bg-white ${navProps ? "fixed top-0" : "relative top-0"} w-full`}>
             <nav className="flex justify-between items-center nav-menu w-full px-12 py-6 bg-white shadow-lg z-50">
                 <Link to="/" className="brand">
                     <img src={logo} alt="brand logo" />
@@ -36,5 +39,7 @@ const Nav = () => {
             </nav>
         </header>
     );
+
+    
 };
 export default Nav;

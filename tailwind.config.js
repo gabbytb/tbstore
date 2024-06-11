@@ -5,6 +5,20 @@ module.exports = {
     "./src/**/*.{html,jsx,jsx,ts,tsx}",
   ],
   theme: {
+    fontSize: {
+      'xl': '1rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
+      '6xl': '4rem',
+      '7xl': '4.5rem', 
+      '8xl': '6rem',      
+      '9xl': '8rem',  
+      // '10xl': '1.3rem',
+      // '11xl': '1.675rem',
+      '12xl': '1.8rem',
+    },
     extend: {
       backgroundColor: {
         skin: {
@@ -22,6 +36,11 @@ module.exports = {
       },
       height: {
         '140': '40rem',
+        '142': '42rem',
+      },
+      lineHeight: {
+        'less-snug': '1.35',
+        'less-relaxed': '1.55',
       },
       textColor: {
         skin: {

@@ -10,16 +10,16 @@ const ProductLists = () => {
 
     return (
         <section className='section-2-product-slide w-full h-full'>
-            <div className='home-container'>
-                <div className="hero--bottom">
+            <div className='pt-12 pb-40 p--x-12'>
+                <div className="products--wrapper">
 
 
-                    <div className='pt-36 pb-24 text-center hero--title'>
-                        <h1>Sport Wears </h1>
+                    <div className='pt-36 pb-24 text-center product-slide--title'>
+                        <h2>Sport Wears </h2>
                     </div>
 
                     
-                    <div className='grid grid-rows-3 gap-16  min-h-max'>
+                    <div className='grid grid-rows-3 gap-16 min-h-max'>
                         <ProductsCard />   
                     </div>
 

@@ -4,6 +4,8 @@
 
 
 
+
+
 @layer base {
 
   :root {
@@ -26,6 +28,18 @@
 
 
 @layer components {
+    
+    /* Padding Edges for Responsive Design */
+    .p--x-12 {
+      @apply
+        px-12
+      ;
+    }
+    /* Padding Edges for Responsive Design */
+
+
+
+  
     .nav-menu .brand {
       @apply w-56 
     }
@@ -37,7 +51,7 @@
         tracking-wide
     }
 
-    .hero--title h1 {
+    .section-2-product-slide .products--wrapper .product-slide--title h2 {
       @apply
         text-5xl/tight font-black text-skin-dark-blue
       ;
@@ -50,85 +64,90 @@
       ;
     }
 
-    .product--details p {
+    .product--details small {
+      @apply
+        text-3xl
+        font-black
+      ;
+    }
+    
+    /* .product--details p {
       @apply
         text-xl/relaxed font-semibold
       ; 
-    }
-
-    .product--details .product-img-wrap {
+    } */
+    
+    /* For Home Product List */
+    .product--details .products-img-wrap {
       @apply
-        h-96
+        h-80
+        border border-slate-100
       ;
     }
-
-    .product--details img {
+    .product--details .products-img-wrap img {
       @apply
-        w-full h-full
+        w-full 
+        h-full
+        object-fill
       ;
     }
+    /* For Home Product List */
 
+
+
+
+    /* For Single Product Page */
+    .product-img-wrap {
+      @apply
+        flex justify-between flex-row
+        h-60
+      ;
+    }
     .product-info-wrap {
       @apply 
-        pt-6
-        pb-16
-        px-8
+        flex 
+        flex-col
       ;
     }
-
     .product-info-wrap h4 {
       @apply
         mb-0
+        text-12xl/normal
+        font-black
       ;
     }
-
-    .product-info-wrap p {
-      @apply
-        mb-3
-      ;
-    }
-
     .product-info-wrap small {
       @apply
-        text-xl
-        italic
-        font-semibold
+        text-2xl
+        text-orange-500
+        font-bold
       ;
     }
-
-    .hero--top > div > h1 {
+    .product-info-wrap.single-product-info-wrap h4 {
       @apply
-        text-7xl/tight
+        mb-8
+        text-5xl/less-snug
         font-black
-        /* text-skin-dark-blue */
-        text-white
       ;
     }
-
-    /* .hero--top div:last-of-type {
+    .product-info-wrap.single-product-info-wrap h6 {
       @apply
-        w-full 
-        lg:w-154 
-        h-140
-        hidden
-        lg:inline-flex
-      ;
-    } */
-
-    .hero--top div:last-of-type img {
-      @apply 
-        w-full
-        h-full 
-        object-cover
+        mb-0
+        text-12xl
+        font-black
       ;
     }
-
-    .hero--top form button {
-      @apply 
-        text-white
-          bg-skin-dark-blue
+    .product-info-wrap.single-product-info-wrap h6 p {
+      @apply
+        mt-2 mb-6
+        text-2xl/less-relaxed
+        font-medium
       ;
     }
+    /* For Single Product Page */
+
+
+
 
     .section-1-hero {
       @apply
@@ -139,21 +158,26 @@
         pt-56
       ;
     }
-
-    .section-1-hero .home-container {
+    .section-1-hero .hero--top > h1 {
       @apply
-        flex
-        flex-col
-        pt-12 
-        pb-40
-        px-12
+        text-7xl/tight
+        font-black
+        /* text-skin-dark-blue */
+        text-white
+      ;
+    }
+    .section-1-hero .hero--top div:last-of-type img {
+      @apply 
+        w-full
+        h-full 
+        object-cover
+      ;
+    }
+    .section-1-hero .hero--top form button {
+      @apply 
+        text-white
+          bg-skin-dark-blue
       ;
     }
 
-    .section-2-product-slide .home-container {
-      @apply
-        px-12
-      ; 
-    }
-    
 }
